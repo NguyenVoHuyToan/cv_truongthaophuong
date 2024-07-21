@@ -40,13 +40,14 @@ const About = () => {
       <div className="education">
         <div className="education-text">
           <h2>Đại Học Tôn Đức Thắng</h2>
-          <h2>Cử Nhân Trung-Văn</h2>
+          <h2>Cử Nhân Trung Văn</h2>
           <h3>09/2010-09/2014</h3>
           <ul>
             <li>Tháng 09/2014: Tốt nghiệp chuyên ngành Trung Văn, khoa Ngoại ngữ, trường đại học Tôn Đức Thắng</li>
             <li>Bằng TOEIC 565</li>
             <li>Chứng chỉ tin học A</li>
             <li>Chứng chỉ Quản lý Nhân sự -  ĐH Kinh tế TP.HCM</li>
+            <li>Chứng chỉ VLAS</li>
           </ul>
         </div>
         <div className="tdt-picture">

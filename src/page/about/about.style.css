@@ -160,7 +160,7 @@
 @media screen and (max-width: 480px ) {
     .about-page{
         flex-direction: column-reverse;
-        height: 70vh;
+        height: 60vh;
     }
     .about-me{
         width: 100%;
@@ -182,6 +182,7 @@
     }
     .education{
         flex-direction: column-reverse;
+        margin-top: 50px;
     }
     .education-text{
         width: 100%;
