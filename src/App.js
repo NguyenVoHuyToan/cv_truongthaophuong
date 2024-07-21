@@ -11,7 +11,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/tong-quan" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/gioi-thieu" element={<About />}></Route>
         <Route path="/kinh-nghiem" element={<Experience />}></Route>
         <Route path="/lien-he" element={<Contact />}></Route>

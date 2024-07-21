@@ -186,16 +186,16 @@
 
 @media  screen and (max-width:375px){
     .avatar-about{
-        width: 60%;
+        width: 70%;
     }
     .about-me{
         width: 95%;
-        height: 100%;
-        margin-top: 20px;
+        margin: 20px;
     }
     .information{
         padding: 0;
         margin: 0;
         font-size: 15px;
+        line-height: 10px;
     }
 }
