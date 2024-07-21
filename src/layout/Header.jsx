@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const landing = [
   {
     name: "Tổng Quan",
-    href: "/tong-quan",
+    href: "/",
   },
   {
     name: "Cá Nhân",
