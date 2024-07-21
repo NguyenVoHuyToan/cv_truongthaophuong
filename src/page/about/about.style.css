@@ -160,7 +160,7 @@
 @media screen and (max-width: 480px ) {
     .about-page{
         flex-direction: column-reverse;
-        margin-top: 90%;
+        margin-top: 300px;
     }
     .about-me{
         width: 100%;
