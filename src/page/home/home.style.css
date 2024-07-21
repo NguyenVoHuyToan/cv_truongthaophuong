@@ -76,6 +76,9 @@
             font-size: 20px;
         }
     }
+    .title{
+        margin-top: 50px;
+    }
 
 }
 
@@ -85,6 +88,9 @@
         p{
             font-size: 18px;
         }
+    }
+    .title{
+        margin-top: 50px;
     }
 
 }

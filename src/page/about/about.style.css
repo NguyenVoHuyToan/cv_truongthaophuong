@@ -124,7 +124,7 @@
 @media screen and (max-width: 1024px ) {
     .about-page{
         flex-direction: column-reverse;
-        margin-top: 250px
+        height: 60vh;
     }
     .about-me{
         width: 70%;
@@ -142,7 +142,7 @@
 @media screen and (max-width: 768px ) {
     .about-page{
         flex-direction: column-reverse;
-        margin-top: 65%
+        height: 70vh;
     }
     .about-me{
         width: 80%;
@@ -160,7 +160,6 @@
 @media screen and (max-width: 480px ) {
     .about-page{
         flex-direction: column-reverse;
-        height: 60vh;
     }
     .about-me{
         width: 100%;
