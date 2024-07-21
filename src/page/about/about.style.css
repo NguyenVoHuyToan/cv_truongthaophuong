@@ -160,24 +160,30 @@
 @media screen and (max-width: 480px ) {
     .about-page{
         flex-direction: column-reverse;
+
     }
     .about-me{
-        width: 100%;
+        width: 80%;
+        height: 50%;
         margin: 20px;
         h1{
-            font-size: 32px;
+            font-size: 25px;
         }
     }
     .information{
-        font-size: 15px;
+        padding: 0;
+        h4{
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
 
     }
     .avatar-about{
         width: 200px ;
     }
     .my-profile{
-        width: 300px;
-        margin-bottom: 20px;
+        font-size: 12px;
     }
     .education{
         flex-direction: column-reverse;
