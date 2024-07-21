@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.about-page h1{
+    color: rgb(107, 14, 107)
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 32px;
+    border-top-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    background-color: rgb(45, 138, 45);
+    color: white;
+    width: 50%;
+    height: 90%;
+
+    padding: 45px;
+}
+
+.my-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.information{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.information h4{
+    font-size: 25px;
+}
+
+.information li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.avatar-about{
+    width: 450px;
+    height: 100%;
+}
+
+.avatar-about img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(20px 10px 15px grey);
+
+    border-radius: 10px;
+}
+
+.education{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.education-text{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(45, 138, 45);
+    color: white;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 25%;
+    width: 100%;
+  
+    margin: auto 40px;
+    padding: 10px;
+    h2{
+        color: rgb(107, 14, 107)
+    }
+}
+
+.education-text h2,h3{
+    margin: 20px 10px;
+}
+
+.education-text li{
+    list-style: none;
+    margin-top: 20px;
+
+    padding: 10px;
+}
+
+.tdt-picture{
+    width: 100%;
+    
+}
+
+.tdt-picture img{
+    width: 100%;
+    border-radius: 5px;
+    filter: drop-shadow(20px 10px 20px grey);
+}
+
+
+@media screen and (max-width: 1024px ) {
+    .about-page{
+        flex-direction: column-reverse;
+        margin-top: 250px
+    }
+    .about-me{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .education{
+        flex-direction: column-reverse;
+    }
+    .education-text{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .about-page{
+        flex-direction: column-reverse;
+        margin-top: 65%
+    }
+    .about-me{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .education{
+        flex-direction: column-reverse;
+    }
+    .education-text{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px ) {
+    .about-page{
+        flex-direction: column-reverse;
+        margin-top: 90%;
+    }
+    .about-me{
+        width: 100%;
+        margin: 20px 20px;
+        h1{
+            font-size: 32px;
+        }
+    }
+    .avatar-about{
+        width: 350px ;
+    }
+    .my-profile{
+        width: 300px;
+    }
+    .education{
+        flex-direction: column-reverse;
+    }
+    .education-text{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media  screen and (max-width:375px){
+    .avatar-about{
+        width: 60%;
+    }
+    .about-me{
+        width: 95%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .information{
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+}
