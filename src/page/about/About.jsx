@@ -9,7 +9,6 @@ const About = () => {
         <div className="about-me">
           <h1>Trương Thảo Phương</h1>
           <div className="information">
-            <h4>Thông Tin Cá Nhân</h4>
             <div className="my-profile">
               <div className="left">
                 <ul>
