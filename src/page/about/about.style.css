@@ -161,14 +161,11 @@
         flex-direction: column;
         margin-top: 50px;
         h1{
-            font-size: medium;
+            font-size: 18px;
         }
     }
     .about-me{
         margin: 20px;
-        h1{
-            font-size: 16px;
-        }
     }
     .information{
         padding: 0;
