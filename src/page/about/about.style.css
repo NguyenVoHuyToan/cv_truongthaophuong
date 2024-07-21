@@ -39,10 +39,11 @@
 }
 
 .information{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
+    height: fit-content;
 
-    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
@@ -56,7 +57,7 @@
 }
 
 .avatar-about{
-    width: 400px;
+    width: 350px;
     height: 100%;
 }
 
@@ -188,8 +189,3 @@
     }
 }
 
-@media screen and (max-width: 375px) {
-    .avatar-about{
-        width: 300px;
-    }
-}
