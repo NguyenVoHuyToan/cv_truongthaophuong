@@ -161,18 +161,17 @@
         flex-direction: column;
         margin-top: 50px;
         h1{
-            font-size: 18px;
+            font-size: 25px;
         }
     }
     .about-me{
         margin: 20px;
     }
     .information{
-        padding: 0;
+        padding: 5px;
         h4{
-            font-size: 12px;
-            margin: 0;
-            padding: 0;
+            font-size: 18px;
+            padding: 3px;
         }
 
     }
@@ -180,7 +179,10 @@
         display: none;
     }
     .my-profile{
-        font-size: 12px;
+        width: 100%;
+        font-size: 15px;
+        padding: 5px;
+        margin: 5px;
     }
     .education{
         flex-direction: column-reverse;
