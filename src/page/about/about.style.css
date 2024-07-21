@@ -123,7 +123,7 @@
 @media screen and (max-width: 1024px ) {
     .about-page{
         flex-direction: column-reverse;
-        height: 60vh;
+        margin-top: 200px;
     }
     .about-me{
         width: 70%;
@@ -141,7 +141,7 @@
 @media screen and (max-width: 768px ) {
     .about-page{
         flex-direction: column-reverse;
-        height: 70vh;
+        margin-top: 300px ;
     }
     .about-me{
         width: 80%;
@@ -159,14 +159,12 @@
 @media screen and (max-width: 480px ) {
     .about-page{
         flex-direction: column;
-
+        margin-top: 50px;
     }
     .about-me{
-        width: 80%;
-        height: 50%;
         margin: 20px;
         h1{
-            font-size: 18px;
+            font-size: 16px;
         }
     }
     .information{
@@ -179,8 +177,7 @@
 
     }
     .avatar-about{
-        width: 300px ;
-        height: fit-content;
+        display: none;
     }
     .my-profile{
         font-size: 12px;
